@@ -2,6 +2,7 @@
 
 
 from github import Github
+import os
 
 # Create an action token with your own personal access token
 g = Github(os.environ["ACCESS_TOKEN"])
